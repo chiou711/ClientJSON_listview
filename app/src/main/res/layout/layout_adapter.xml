@@ -51,6 +51,20 @@
             app:layout_constraintTop_toBottomOf="@+id/text_id" />
 
 
+        <ImageView
+            android:id="@+id/thumb_picture"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:contentDescription="img_thumb_picture"
+            android:scaleType="centerCrop"/>
+
+        <ProgressBar
+            android:id="@+id/thumb_progress"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
     </LinearLayout>
 
 </LinearLayout>
