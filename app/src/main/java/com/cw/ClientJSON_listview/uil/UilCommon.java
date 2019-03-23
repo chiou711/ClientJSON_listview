@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.cw.mysql_jdbc_json.uil;
+package com.cw.ClientJSON_listview.uil;
 
 import android.graphics.Bitmap;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.cw.mysql_jdbc_json.R;
+import com.cw.ClientJSON_listview.R;
 import com.nostra13.universalimageloader.core.DisplayImageOptions;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.ImageScaleType;

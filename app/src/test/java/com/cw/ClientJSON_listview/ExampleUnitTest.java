@@ -1,4 +1,4 @@
-package com.cw.mysql_jdbc_json;
+package com.cw.ClientJSON_listview;
 
 import org.junit.Test;
 

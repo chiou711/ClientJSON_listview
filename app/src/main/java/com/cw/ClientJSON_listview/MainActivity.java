@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.cw.mysql_jdbc_json;
+package com.cw.ClientJSON_listview;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -33,7 +33,7 @@ import android.widget.TextView;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.cw.mysql_jdbc_json.uil.UilCommon;
+import com.cw.ClientJSON_listview.uil.UilCommon;
 import com.google.android.youtube.player.YouTubeIntents;
 
 import org.apache.http.HttpResponse;
@@ -46,7 +46,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
-	String url = "http://10.1.1.3:8080/LiteNoteWeb/viewNote/viewNote3.jsp";
+	String url = "http://10.1.1.3:8080/LiteNoteWeb/viewNote/viewNote_json.jsp";
 	String strResult;
 	private ListView list;
 	int [] Id;
