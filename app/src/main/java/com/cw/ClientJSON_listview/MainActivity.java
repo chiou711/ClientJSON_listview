@@ -47,9 +47,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class MainActivity extends AppCompatActivity {
-	//String url = "http://10.1.1.3:8080/LiteNoteWeb/viewNote/viewNote_json.jsp";
-//	String url = "https://litenote.ddns.net/LiteNoteWeb/viewNote/viewNote_json.jsp";
-	String url = "http://litenote.ddns.net:8080/LiteNoteWeb/viewNote/viewNote_json.jsp";
+	String url = "http://10.1.1.3:8080/LiteNoteWeb/viewNote/viewNote_json.jsp";
 	String strResult;
 	private ListView list;
 	int [] Id;
